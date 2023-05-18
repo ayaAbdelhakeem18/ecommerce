@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeSection = () => {
   return (
@@ -10,7 +11,7 @@ const HomeSection = () => {
             condimentum meleifend diverra loremous.
             </p>
             <div className="text-center">
-            <button className="button main-button">Shop Now</button>
+            <Link to={"/collection"}><button className="button main-button">Shop Now</button></Link>
           </div>
         </div>
     </div>
