@@ -1,0 +1,156 @@
+@media(min-width:1024px){
+ .order-summary-col{
+    max-width: 30% !important;
+    min-width: 400px;
+ }
+}
+@media(max-width:1023px){
+.navbar-nav{
+    left: 20px;
+}
+.navbar-nav .signup{
+    box-shadow: unset !important;
+    background-color: black;
+    color: white;
+}
+.navbar-nav .main-button:hover{
+    background-color: black;
+    color: white;
+}
+.navbar-nav .main-button:active{
+    background-color: black;
+    color: white;
+}
+.navbar-nav .main-button:focus{
+    background-color: black;
+    color: white;
+}
+.navbar-nav .login{
+    color: black;
+}
+.navbar-nav .nav-link{
+    margin-right: 10px;
+    transition: none;
+}
+.navbar-nav .nav-link::after{
+    content: unset;
+}
+.third-groub i{
+font-size: x-large;
+margin-right: 20px;
+}
+.third-groub i:nth-child(1){
+font-size: large;
+margin-right: 10px;
+}
+.large-font{
+    font-size: large !important;
+}
+.larger-font{
+    font-size: x-large !important;
+}
+.navbar-brand{
+    padding-left: 0;
+}
+.nav-link::after{
+    bottom: 0;
+    width: 100% !important;
+    background-color: black;
+}
+
+.collection .button{
+    width: unset !important;
+}
+.pr-row{
+    min-width: 400px;
+}
+}
+@media(max-width:991px){
+.cart-btns{
+display: none;
+}
+.order-summary-col{
+    min-width: 400px;
+}
+.cart .container .col:nth-child(1){
+    padding-right: 12px !important;
+}
+.pr-row{
+padding-bottom: 30px;
+}
+}
+@media(max-width:767px){
+footer .links{
+    max-width: 50%;
+}
+footer .contact{
+    max-width: 50%;
+}
+}
+@media(max-width:768px){
+.info-form{
+    max-width: 100% !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.category .row{
+    padding-bottom: 30px;
+}
+.cart .container{
+    padding: 0;
+    max-width: 96% ;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    overflow: hidden;
+}
+.cart .column h4{
+    font-weight: 700;
+}
+
+}
+@media(max-width:576px){
+.cart .container .col:nth-child(1){
+padding-right: 0 !important;
+}
+.navbar-brand{
+    display: none;
+}
+.navbar-nav .button{
+    min-width: 100px;
+    font-size: small;
+}
+.pr-row{
+    min-width: unset;
+}
+.pr-row .col{
+    padding-left: 0 !important;
+    min-width: 275px;
+}
+.pr-img{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pr-img img{
+    width: 250px;
+}
+.gallery-item{
+    min-width: 49%;
+}
+.order-summary-col .main-button{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.pr-row .column{
+    padding-top: 20px;
+}
+}
+@media(max-width:424px){
+    .order-summary-col{
+        min-width: unset;
+    }
+    .column h4 {
+        font-size: 20px;
+    }
+}
